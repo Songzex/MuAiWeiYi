@@ -1,5 +1,6 @@
 import App from './App'
-
+import store from './store'
+import vuex from  "vuex"
 // #ifndef VUE3
 import Vue from 'vue'
 import './uni.promisify.adaptor'
@@ -15,6 +16,7 @@ app.$mount()
 import { createSSRApp } from 'vue'
 export function createApp() {
   const app = createSSRApp(App)
+  app.use(store)
   return {
     app
   }

@@ -1,13 +1,14 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
+		<view>
+				<text>{{token}}</text>
+				<button @click="setTokens()">增加</button>
+			</view>
 	</view>
 </template>
 
 <script>
+	import store from '@/store/index.js';//需要引入store
 	export default {
 		data() {
 			return {
@@ -18,8 +19,19 @@
 
 		},
 		methods: {
-
-		}
+            setTokens(){
+				const token ="我是token"
+				store.commit("setToken",token)
+			}
+		},
+		computed: {
+					username() {
+						return store.state.username
+					},
+					token(){
+						return store.state.token
+					}
+				}
 	}
 </script>
 
