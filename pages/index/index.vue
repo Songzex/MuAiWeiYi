@@ -3,21 +3,27 @@
 		<view>
 				<text>{{token}}</text>
 				<button @click="setTokens()">增加</button>
+				<text  v-for="item in topic" :key="item" >
+					{{item.introduce}}
+				</text>
 			</view>
 	</view>
 </template>
 
 <script>
 	import store from '@/store/index.js';//需要引入store
+	import { topicDetail } from '@/api/index.js'
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello',
+				topic:[],
 			}
 		},
 		onLoad() {
-
+            
 		},
+	
 		methods: {
             setTokens(){
 				const token ="我是token"
@@ -31,6 +37,12 @@
 					token(){
 						return store.state.token
 					}
+				},
+				
+				mounted() {
+					topicDetail().then(res=>{
+									  this.topic=res.result;
+					});
 				}
 	}
 </script>

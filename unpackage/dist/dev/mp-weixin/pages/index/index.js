@@ -1,10 +1,12 @@
 "use strict";
 const store_index = require("../../store/index.js");
+const api_index = require("../../api/index.js");
 const common_vendor = require("../../common/vendor.js");
 const _sfc_main = {
   data() {
     return {
-      title: "Hello"
+      title: "Hello",
+      topic: []
     };
   },
   onLoad() {
@@ -22,12 +24,23 @@ const _sfc_main = {
     token() {
       return store_index.store.state.token;
     }
+  },
+  mounted() {
+    api_index.topicDetail().then((res) => {
+      this.topic = res.result;
+    });
   }
 };
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {
     a: common_vendor.t($options.token),
-    b: common_vendor.o(($event) => $options.setTokens())
+    b: common_vendor.o(($event) => $options.setTokens()),
+    c: common_vendor.f($data.topic, (item, k0, i0) => {
+      return {
+        a: common_vendor.t(item.introduce),
+        b: item
+      };
+    })
   };
 }
 const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render]]);

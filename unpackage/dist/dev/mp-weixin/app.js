@@ -4,6 +4,7 @@ const common_vendor = require("./common/vendor.js");
 const store_index = require("./store/index.js");
 if (!Math) {
   "./pages/index/index.js";
+  "./pages/tujian/tujian.js";
 }
 const _sfc_main = {
   onLaunch: function() {
