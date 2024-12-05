@@ -2,7 +2,7 @@
  * 请求组件封装
  * @param {Object} url 请求地址 /banner
  *
- *
+ *sdsdsdd
  * @param {Object} data 请求参数
  * @param {Object} method 请求的方法
  * @param {Object} contentType 请求内容类型 1=json  2=form

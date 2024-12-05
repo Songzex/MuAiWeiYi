@@ -13,7 +13,7 @@ const aesIv = "ECPB2CABCDEFGHIJ"
 
 //线上环境配置
 
-
+//水水水水
 //const baseUrl = "api.linfeng.tech"; //后端接口域名
 //const domain = 'https://' + baseUrl + "/app/"; //后端接口地址
 //const uploadUrl = domain + 'file/upload'; //文件上传地址
