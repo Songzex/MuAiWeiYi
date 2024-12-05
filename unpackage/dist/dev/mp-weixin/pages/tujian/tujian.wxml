@@ -1,0 +1,1 @@
+<view><uni-section wx:if="{{b}}" u-s="{{['d']}}" u-i="bf5395a0-0" bind:__l="__l" u-p="{{b}}"><uni-notice-bar wx:if="{{a}}" u-i="bf5395a0-1,bf5395a0-0" bind:__l="__l" u-p="{{a}}"/></uni-section></view>
