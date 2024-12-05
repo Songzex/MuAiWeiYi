@@ -14,8 +14,11 @@ app.$mount()
 
 // #ifdef VUE3
 import { createSSRApp } from 'vue'
+import config from '@/utils/config.js';
 export function createApp() {
   const app = createSSRApp(App)
+  app.config.globalProperties.$imagePreUrl = config.imagePreUrl
+  app.config.globalProperties.$emojiPreUrl = config.emojiPreUrl
   app.use(store)
   return {
     app

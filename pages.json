@@ -12,6 +12,15 @@
 			{
 				"navigationBarTitleText" : ""
 			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				 "navigationStyle": "custom"
+
+			}
 		}
 	],
 	"globalStyle": {
@@ -29,13 +38,21 @@
 				"pagePath": "pages/tujian/tujian",
 				"iconPath": "static/tujian.png",
 				"selectedIconPath": "static/tuijianed.png",
-				"text": "推荐"
+				"text": "消息"
 			},
 			{
 					"pagePath": "pages/index/index",
 					"iconPath": "static/wodes.png",
 					"selectedIconPath": "static/wode.png",
+					"text": "活动"
+				},
+				
+				{
+					"pagePath": "pages/my/my",
+					"iconPath": "static/wodes.png",
+					"selectedIconPath": "static/wode.png",
 					"text": "我的"
+					
 				}
 		]
 	},

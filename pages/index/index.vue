@@ -7,6 +7,7 @@
 					{{item.introduce}}
 				</text>
 			</view>
+			
 	</view>
 </template>
 
