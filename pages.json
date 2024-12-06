@@ -21,6 +21,15 @@
 				 "navigationStyle": "custom"
 
 			}
+		},
+		{
+			"path" : "pages/zhuye/zhuye",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+				
+			}
 		}
 	],
 	"globalStyle": {
@@ -49,6 +58,13 @@
 				
 				{
 					"pagePath": "pages/my/my",
+					"iconPath": "static/wodes.png",
+					"selectedIconPath": "static/wode.png",
+					"text": "我的"
+					
+				},
+				{
+					"pagePath": "pages/zhuye/zhuye",
 					"iconPath": "static/wodes.png",
 					"selectedIconPath": "static/wode.png",
 					"text": "我的"
