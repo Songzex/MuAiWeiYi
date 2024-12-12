@@ -1,6 +1,5 @@
 "use strict";
 const store_index = require("../../store/index.js");
-const api_index = require("../../api/index.js");
 const common_vendor = require("../../common/vendor.js");
 const _sfc_main = {
   data() {
@@ -26,9 +25,6 @@ const _sfc_main = {
     }
   },
   mounted() {
-    api_index.topicDetail().then((res) => {
-      this.topic = res.result;
-    });
   }
 };
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {

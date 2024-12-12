@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/tujian/tujian",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/personip/personip",
+    "pages/qianjindu/qianjindu"
   ],
   "window": {
     "navigationBarTextStyle": "black",

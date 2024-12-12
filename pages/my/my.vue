@@ -232,7 +232,7 @@
 						全网会员
 					</view>
 					</view>
-				<view class="banner2item">
+				<view class="banner2item" @click="toNav('/pages/qianjindu/qianjindu')">
 					<view>
 						 <img :src="$imagePreUrl+ 'hong_qianxianjindu.png'"
 						  alt="头像" 
@@ -272,7 +272,7 @@
 											门店信息
 										</view>
 										</view>
-								<view class="banner2item">
+								<view class="banner2item" @click="toNav('/pages/personip/personip')">
 									<view>
 										 <img :src="$imagePreUrl+ 'hong_ip.png'"
 										  alt="头像" 
@@ -360,7 +360,11 @@
 			}
 		},
 		methods: {
-			
+			toNav(url){
+				uni.navigateTo({
+					url:url
+				});
+			}
 		}
 	}
 </script>

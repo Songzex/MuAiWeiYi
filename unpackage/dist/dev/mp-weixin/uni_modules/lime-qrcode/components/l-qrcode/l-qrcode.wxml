@@ -1,0 +1,1 @@
+<view class="l-qrcode" style="{{h}}"><canvas wx:if="{{a}}" style="{{b}}" type="2d" canvas-id="{{c}}" id="{{d}}"></canvas><block wx:else><canvas wx:if="{{r0}}" style="{{e}}" canvas-id="{{f}}" id="{{g}}"></canvas></block></view>

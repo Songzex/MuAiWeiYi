@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "l-qrcode": "../../uni_modules/lime-qrcode/components/l-qrcode/l-qrcode"
+  }
+}

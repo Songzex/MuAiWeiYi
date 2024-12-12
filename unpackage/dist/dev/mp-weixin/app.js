@@ -7,6 +7,8 @@ if (!Math) {
   "./pages/index/index.js";
   "./pages/tujian/tujian.js";
   "./pages/my/my.js";
+  "./pages/personip/personip.js";
+  "./pages/qianjindu/qianjindu.js";
 }
 const _sfc_main = {
   onLaunch: function() {

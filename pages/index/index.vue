@@ -41,9 +41,9 @@
 				},
 				
 				mounted() {
-					topicDetail().then(res=>{
+					/* topicDetail().then(res=>{
 									  this.topic=res.result;
-					});
+					}); */
 				}
 	}
 </script>
