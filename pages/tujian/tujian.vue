@@ -1,5 +1,6 @@
 <template>
 	<view>
+    <view class="t-icon t-icon-tonggao"></view>
 		<uni-icons custom-prefix="iconfont" type="icon-tonggao" size="30"></uni-icons>
 		<uni-icons type="icon-tonggao" size="30"></uni-icons>
 		<uni-notice-bar show-icon scrollable
@@ -11,11 +12,11 @@
 	export default {
 		data() {
 			return {
-				
+
 			}
 		},
 		methods: {
-			
+
 		}
 	}
 </script>

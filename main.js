@@ -1,5 +1,6 @@
 import App from './App'
 import store from './store'
+import './static/iconfont-weapp-icon.css'
 import vuex from  "vuex"
 // #ifndef VUE3
 import Vue from 'vue'
