@@ -58,13 +58,30 @@
 			{
 				"navigationBarTitleText" : "体现管理"
 			}
+		},
+		{
+			"path" : "pages/shouyi/shouyi",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/zhuye/zhuye",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				 "navigationStyle": "custom"
+			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "muaiweiyi",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+		"animationType": "fade-in",
+		"animationDuration": 5
 	},
 	"tabBar": {
 		"color": "#7A7E83",
@@ -78,7 +95,7 @@
 				"text": "消息"
 			},
 			{
-					"pagePath": "pages/index/index",
+					"pagePath": "pages/zhuye/zhuye",
 					"iconPath": "static/wodes.png",
 					"selectedIconPath": "static/wode.png",
 					"text": "活动"

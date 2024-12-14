@@ -10,7 +10,11 @@
 				</view>
 				<view class="item1s">
 					<view>
-					慕爱唯依</view>
+					<image
+					class="muai"
+					:src="$imagePreUrl+ 'muaiweiyi.png'"
+					></image>
+					</view>
 					<view>
 						<image
 						class="aixin1"
@@ -61,6 +65,16 @@
 </script>
 
 <style scoped>
+	.muai{
+		display :inline-block;
+		box-sizing :border-box;
+		height :158rpx;
+		width :433rpx;
+		position :relative;
+		left :0rpx;
+		top: -187rpx;
+		
+	}
 	.but{
 		height: 90rpx;
 		width: 614rpx;
@@ -103,8 +117,8 @@
 	.aixin1{
 		width: 2.5rem;
 		height: 2.5rem;
-     /*   position: relative;
-		top: -1098rpx; */
+       position: relative;
+		top: -77rpx;
 	}
 	.cards{
 		width: 100vw;

@@ -11,6 +11,8 @@ if (!Math) {
   "./pages/personip/personip.js";
   "./pages/qianjindu/qianjindu.js";
   "./pages/tixian/tixian.js";
+  "./pages/shouyi/shouyi.js";
+  "./pages/zhuye/zhuye.js";
 }
 const _sfc_main = {
   onLaunch: function() {

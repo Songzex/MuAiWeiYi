@@ -1,1 +1,1 @@
-<view><l-qrcode wx:if="{{a}}" u-i="5d955422-0" bind:__l="__l" u-p="{{a}}"></l-qrcode></view>
+<view><l-qrcode wx:if="{{a}}" u-i="f5dc2de0-0" bind:__l="__l" u-p="{{a}}"></l-qrcode></view>

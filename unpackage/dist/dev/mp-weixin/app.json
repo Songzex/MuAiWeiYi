@@ -6,13 +6,17 @@
     "pages/my/my",
     "pages/personip/personip",
     "pages/qianjindu/qianjindu",
-    "pages/tixian/tixian"
+    "pages/tixian/tixian",
+    "pages/shouyi/shouyi",
+    "pages/zhuye/zhuye"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "muaiweiyi",
     "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "backgroundColor": "#F8F8F8",
+    "animationType": "fade-in",
+    "animationDuration": 5
   },
   "tabBar": {
     "color": "#7A7E83",
@@ -27,7 +31,7 @@
         "text": "消息"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/zhuye/zhuye",
         "iconPath": "static/wodes.png",
         "selectedIconPath": "static/wode.png",
         "text": "活动"

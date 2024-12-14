@@ -1,1 +1,1 @@
-<view><uni-steps wx:if="{{a}}" u-i="013dad06-0" bind:__l="__l" u-p="{{a}}"/><button type="primary" size="mini" style="margin:30px 10px;width:100px" bindtap="{{b}}"> 改变状态</button></view>
+<view><uni-steps wx:if="{{a}}" u-i="60052e3c-0" bind:__l="__l" u-p="{{a}}"/><button type="primary" size="mini" style="margin:30px 10px;width:100px" bindtap="{{b}}"> 改变状态</button></view>

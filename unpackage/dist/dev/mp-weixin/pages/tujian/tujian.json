@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "",
   "usingComponents": {
+    "uni-icons": "../../node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons",
     "uni-notice-bar": "../../node-modules/@dcloudio/uni-ui/lib/uni-notice-bar/uni-notice-bar"
   }
 }
