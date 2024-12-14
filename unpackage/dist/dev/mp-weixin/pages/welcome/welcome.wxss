@@ -1,0 +1,154 @@
+
+.but.data-v-085f0530{
+		height: 90rpx;
+		width: 614rpx;
+		display: flex;
+	    justify-content: center;
+		align-items: center;
+		border: solid #ffffff 2px;
+		background-color: #eae1f1;
+		border-radius: 45px;
+		color: #FFFFFF;
+}
+.zhuce.data-v-085f0530{
+		font-size: 37rpx;
+}
+.TIJAI.data-v-085f0530{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		column-gap: 12rpx;
+		border-radius: 23px;
+}
+.tishiti.data-v-085f0530{
+		font-size: 47rpx;
+}
+.from.data-v-085f0530{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		row-gap: 89rpx;
+		align-items: center;
+}
+.input.data-v-085f0530{
+		height: 90rpx;
+		width: 614rpx;
+		border: solid #ffffff 3px;
+		border-radius: 45px;
+}
+.aixin1.data-v-085f0530{
+		width: 2.5rem;
+		height: 2.5rem;
+     /*   position: relative;
+		top: -1098rpx; */
+}
+.cards.data-v-085f0530{
+		width: 100vw;
+		height: 100vh;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: linear-gradient(120deg,#CDE6EE 37.21%,#DECAF1 100%,#FFFFFF 100%);
+}
+.html.data-v-085f0530{
+		font-size: 16rpx;
+}
+.adv.data-v-085f0530{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+}
+.ti1.data-v-085f0530{
+		position: relative;
+		top: -202rpx;
+		width:66rem;
+		height: 34.7rem;
+}
+.item1.data-v-085f0530{
+	     height: 16rem;
+}
+.item1s.data-v-085f0530{
+				display: flex;
+				row-gap: 19px;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				position: relative;
+			 animation-duration: 3s;
+			 animation-name: zoomIn-085f0530;
+	          position: relative;
+	 		top: -887rpx;
+}
+.item2s.data-v-085f0530{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		position: relative;
+		animation-duration: 2s;
+		animation-name: slideInDown-085f0530;
+		font-family: STLiti;
+		font-size: 43rpx;
+		color: #ffffff;
+}
+@keyframes slideInDown-085f0530 {
+from {
+	        transform: translate3d(0, -100%, 0);
+	        visibility: visible;
+}
+to {
+	        transform: translate3d(0, 0, 0);
+}
+}
+@keyframes slidein-085f0530 {
+from {
+	    margin-left: 100%;
+	    width: 300%;
+}
+to {
+	    margin-left: 0%;
+	    width: 100%;
+}}
+@keyframes zoomIn-085f0530 {
+from {
+          opacity: 0;
+          transform: scale3d(0.3, 0.3, 0.3);
+}
+50% {
+          opacity: 1;
+}
+}
+@media screen and (max-width:320px) {
+.cards.data-v-085f0530{
+	  	width: 100%;
+	  	height: 100vh;
+	  	background-color: #ffffff;
+	  	position: relative;
+}
+.item1s.data-v-085f0530{
+	  			display: flex;
+	  			flex-direction: column;
+	  			justify-content: center;
+	  			align-items: center;
+	  			width: 100%;
+	  			position: relative;
+	  			top: -880rpx;
+	  		 animation-duration: 3s;
+	  		 animation-name: zoomIn-085f0530;
+}
+.ti1.data-v-085f0530{
+	  	position: relative;
+	  	top: -202rpx;
+	  	width:56rem;
+	  	height: 29.7rem;
+}
+.from.data-v-085f0530{
+		  row-gap: 54rpx;
+}
+}

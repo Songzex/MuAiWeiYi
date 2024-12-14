@@ -181,13 +181,13 @@
 						本月业绩
 					</view>
 					</view>
-				<view class="banner2item">
+				<view class="banner2item" @click="toNav('/pages/tixian/tixian')">
 					<view>
 						 <img :src="$imagePreUrl+ 'hong_tixian.png'"
 						  alt="头像" 
 						 	style="width: 50px;
 						 	border-radius:50px;
-						 	 height: 50px;">
+						 	height: 50px;">
 					 </view>
 					<view>
 						我的提现

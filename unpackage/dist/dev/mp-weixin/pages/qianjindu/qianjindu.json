@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "进度",
   "usingComponents": {
     "jindu": "../../components/jindu/jindu"
   }

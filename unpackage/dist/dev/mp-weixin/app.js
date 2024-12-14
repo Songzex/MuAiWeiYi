@@ -4,11 +4,13 @@ const common_vendor = require("./common/vendor.js");
 const store_index = require("./store/index.js");
 const utils_config = require("./utils/config.js");
 if (!Math) {
+  "./pages/welcome/welcome.js";
   "./pages/index/index.js";
   "./pages/tujian/tujian.js";
   "./pages/my/my.js";
   "./pages/personip/personip.js";
   "./pages/qianjindu/qianjindu.js";
+  "./pages/tixian/tixian.js";
 }
 const _sfc_main = {
   onLaunch: function() {

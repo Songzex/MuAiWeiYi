@@ -1,10 +1,12 @@
 {
   "pages": [
+    "pages/welcome/welcome",
     "pages/index/index",
     "pages/tujian/tujian",
     "pages/my/my",
     "pages/personip/personip",
-    "pages/qianjindu/qianjindu"
+    "pages/qianjindu/qianjindu",
+    "pages/tixian/tixian"
   ],
   "window": {
     "navigationBarTextStyle": "black",
