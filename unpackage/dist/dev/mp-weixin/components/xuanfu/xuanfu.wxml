@@ -1,0 +1,1 @@
+<view class="xuanfu"><view><image wx:if="{{true}}" style="{{a}}" src="{{b}}" class="biaoshi"></image></view><view><image wx:if="{{true}}" style="{{c}}" src="{{d}}" class="biaoshi"></image></view></view>
