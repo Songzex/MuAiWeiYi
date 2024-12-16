@@ -1,4 +1,5 @@
 <template>
+	<DynamicCssEffect></DynamicCssEffect>
 	<view class="cards">
 		<view class="from">
 			<view class="item1">
@@ -23,24 +24,48 @@
 					</view>
 				</view>
 			</view>
-			<view class="tishiti">
-				欢迎登录
+			<view class="randl">
+				<view class="tishiti">
+					欢迎登录
+				</view>
+			<view class="iteminput">
+				<input
+				v-if="login"
+				 class="input"
+				 prefixIcon="contact" v-model="value" placeholder="请输入账号/手机号码" @iconClick="iconClick">
+				</input>
+				<input
+				v-if="!login"
+				 class="input"
+				 prefixIcon="contact" v-model="value" placeholder="请输入账号/手机号码" @iconClick="iconClick">
+				</input>
+				<input
+				v-if="!login"
+				 class="input"
+				 prefixIcon="contact" v-model="value" placeholder="验证码" @iconClick="iconClick">
+				</input>
+				<input
+				 v-if="login"
+				 class="input"
+				 prefixIcon="contact" v-model="value" placeholder="输入密码" @iconClick="iconClick">
+				</input>
+				<input
+				v-if="!login"
+				 class="input"
+				 prefixIcon="contact" v-model="value" placeholder="再次输入密码" @iconClick="iconClick">
+				</input>
 			</view>
-			<input
-			 class="input"
-			 prefixIcon="contact" v-model="value" placeholder="请输入账号/手机号码" @iconClick="iconClick">
-			</input>
-			<input
-			 class="input"
-			 prefixIcon="contact" v-model="value" placeholder="请输入密码" @iconClick="iconClick">
-			</input>
-			<view class="TIJAI">
-				<button
-				@click="toNav('/pages/tujian/tujian')"
-				 class="but"
-				>登录</button>
-				<view class="zhuce">
-					注册
+				<view class="TIJAI">
+					<button
+					@click="toNav('/pages/tujian/tujian')"
+					 class="but"
+					>登录</button>
+					<view class="zhuce">
+						<view
+						@click="onchanges()"
+						>注册</view>
+						<view>忘记密码</view>
+					</view>
 				</view>
 			</view>
 		</view>
@@ -51,7 +76,8 @@
 	export default {
 		data() {
 			return {
-				
+				login:true,
+				register:false,
 			}
 		},
 		methods: {
@@ -59,12 +85,26 @@
 				uni.switchTab({
 					url:url
 				});
+			},
+			onchanges(){
+				this.login=false;
 			}
 		}
 	}
 </script>
 
 <style scoped>
+	.iteminput{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 12.5rpx;
+	}
+	.randl{
+		margin-top: -16.0714rpx;
+		gap: 12.5rpx;
+	}
 	.muai{
 		display :inline-block;
 		box-sizing :border-box;
@@ -77,7 +117,7 @@
 	}
 	.but{
 		height: 90rpx;
-		width: 614rpx;
+		width: 192rpx;
 		display: flex;
 	    justify-content: center;
 		align-items: center;
@@ -87,18 +127,25 @@
 		color: #FFFFFF;
 	}
 	.zhuce{
-		font-size: 37rpx;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	    column-gap: 389.2857rpx;
+		align-items: center;
 	}
 	.TIJAI{
+		margin-top: 21.4286rpx;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		column-gap: 12rpx;
+		column-gap: 21.4286rpx;
 		border-radius: 23px;
 	}
 	.tishiti{
 		font-size: 47rpx;
+		text-align: center;
+		color: #FFFFFF;
 		
 	}
 	.from{
@@ -109,8 +156,8 @@
 		align-items: center;
 	}
 	.input{
-		height: 90rpx;
-		width: 614rpx;
+		height: 78rpx;
+		width: 426rpx;
 		border: solid #ffffff 3px;
 		border-radius: 45px;
 	}

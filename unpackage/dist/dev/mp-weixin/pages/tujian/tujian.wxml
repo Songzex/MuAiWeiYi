@@ -1,1 +1,1 @@
-<view><uni-icons wx:if="{{a}}" u-i="bf5395a0-0" bind:__l="__l" u-p="{{a}}"></uni-icons><uni-icons wx:if="{{b}}" u-i="bf5395a0-1" bind:__l="__l" u-p="{{b}}"></uni-icons><uni-notice-bar wx:if="{{c}}" u-i="bf5395a0-2" bind:__l="__l" u-p="{{c}}"/></view>
+<view><uni-notice-bar wx:if="{{a}}" u-i="bf5395a0-0" bind:__l="__l" u-p="{{a}}"/></view>

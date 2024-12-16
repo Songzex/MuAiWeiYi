@@ -1,4 +1,15 @@
 
+.iteminput.data-v-085f0530{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 12.5rpx;
+}
+.randl.data-v-085f0530{
+		margin-top: -16.0714rpx;
+		gap: 12.5rpx;
+}
 .muai.data-v-085f0530{
 		display :inline-block;
 		box-sizing :border-box;
@@ -10,7 +21,7 @@
 }
 .but.data-v-085f0530{
 		height: 90rpx;
-		width: 614rpx;
+		width: 192rpx;
 		display: flex;
 	    justify-content: center;
 		align-items: center;
@@ -20,18 +31,25 @@
 		color: #FFFFFF;
 }
 .zhuce.data-v-085f0530{
-		font-size: 37rpx;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	    column-gap: 389.2857rpx;
+		align-items: center;
 }
 .TIJAI.data-v-085f0530{
+		margin-top: 21.4286rpx;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		column-gap: 12rpx;
+		column-gap: 21.4286rpx;
 		border-radius: 23px;
 }
 .tishiti.data-v-085f0530{
 		font-size: 47rpx;
+		text-align: center;
+		color: #FFFFFF;
 }
 .from.data-v-085f0530{
 		display: flex;
@@ -41,8 +59,8 @@
 		align-items: center;
 }
 .input.data-v-085f0530{
-		height: 90rpx;
-		width: 614rpx;
+		height: 78rpx;
+		width: 426rpx;
 		border: solid #ffffff 3px;
 		border-radius: 45px;
 }

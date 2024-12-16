@@ -21,16 +21,20 @@
       </view>
 	<view class="content">
 		 <view class="item1">
-			 <uni-icons type="icon-tonggao" size="30"></uni-icons>
-			 <button  style="margin-top: -19px;
+			 <view
+			 class="item1"
+			 style="margin-top: -19px;
 			  font-size: 24rpx;
 			  font-weight: bold;
-			  background-color: blueviolet;
+			  background-color: #edf5f9;
 			  border-radius: 23px;
-			  	box-shadow: 8px 1px 2px 0.2px #888888;
-			 background: linear-gradient(90deg,#f6ccf7 61.86%,#ACE0F9 100%),linear-gradient(120deg,#D6C9E2 29.36%,#8EC5FC 100%);
-			  ">基本信息</button>
-		 </view>
+			  align-items: center;
+			 background: linear-gradient(90deg,#ffffff 61.86%,#ACE0F9 100%),linear-gradient(120deg,#D6C9E2 29.36%,#8EC5FC 100%);"
+			 >
+				<view class="t-icon t-icon-tonggao"></view>
+				 <text>基本信息</text>
+			 </view>
+		   </view>
 	        <view  
 			class="item2"
 			style="margin-top: 12px;">
@@ -48,15 +52,20 @@
 		  
 		  <view class="content">
 		  	 <view class="item1">
-		  		 <button  style="margin-top: -19px;
-		  		  font-size: 24rpx;
-		  		  font-weight: bold;
-		  		  background-color: blueviolet;
-		  		  border-radius: 23px;
-		  		  	box-shadow: 8px 1px 2px 0.2px #888888;
-		  		 background: linear-gradient(90deg,#f6ccf7 61.86%,#ACE0F9 100%),linear-gradient(120deg,#D6C9E2 29.36%,#8EC5FC 100%);
-		  		  ">兴趣爱好</button>
-		  	 </view>
+		  				 <view
+		  				 class="item1"
+		  				 style="margin-top: -19px;
+		  				  font-size: 24rpx;
+		  				  font-weight: bold;
+		  				  background-color: blueviolet;
+		  				  border-radius: 23px;
+		  				  align-items: center;
+		  				 background: linear-gradient(90deg,#ffffff 61.86%,#ACE0F9 100%),linear-gradient(120deg,#D6C9E2 29.36%,#8EC5FC 100%);"
+		  				 >
+		  					<view class="t-icon t-icon-caiyi"></view>
+		  					 <text>兴趣爱好</text>
+		  				 </view>
+		  			   </view>
 		          <view  
 		  		class="item2"
 		  		style="margin-top: 12px;">
@@ -72,16 +81,21 @@
 		  		</view>
 		        </view>
 		<view class="content">
-				 <view class="item1">
-					 <button  style="margin-top: -19px;
-					  font-size: 24rpx;
-					  font-weight: bold;
-					  background-color: blueviolet;
-					  border-radius: 23px;
-					  	box-shadow: 8px 1px 2px 0.2px #888888;
-					 background: linear-gradient(90deg,#f6ccf7 61.86%,#ACE0F9 100%),linear-gradient(120deg,#D6C9E2 29.36%,#8EC5FC 100%);
-					  ">关于我</button>
-				 </view>
+				<view class="item1">
+						  				 <view
+						  				 class="item1"
+						  				 style="margin-top: -19px;
+						  				  font-size: 24rpx;
+						  				  font-weight: bold;
+						  				  background-color: blueviolet;
+						  				  border-radius: 23px;
+						  				  align-items: center;
+						  				 background: linear-gradient(90deg,#ffffff 61.86%,#ACE0F9 100%),linear-gradient(120deg,#D6C9E2 29.36%,#8EC5FC 100%);"
+						  				 >
+						  					<view class="t-icon t-icon-jishiliaotian"></view>
+						  					 <text>关于我</text>
+						  				 </view>
+						  			   </view>
 			        <view  
 					class="item2"
 					style="margin-top: 12px;">
@@ -100,16 +114,21 @@
 					</view>
 			      </view>
 <view class="content">
-				 <view class="item1">
-					 <button  style="margin-top: -19px;
-					  font-size: 24rpx;
-					  font-weight: bold;
-					  background-color: blueviolet;
-					  border-radius: 23px;
-					  	box-shadow: 8px 1px 2px 0.2px #888888;
-					 background: linear-gradient(90deg,#f6ccf7 61.86%,#ACE0F9 100%),linear-gradient(120deg,#D6C9E2 29.36%,#8EC5FC 100%);
-					  ">关于我</button>
-				 </view>
+			<view class="item1">
+						  				 <view
+						  				 class="item1"
+						  				 style="margin-top: -19px;
+						  				  font-size: 24rpx;
+						  				  font-weight: bold;
+						  				  background-color: blueviolet;
+						  				  border-radius: 23px;
+						  				  align-items: center;
+						  				 background: linear-gradient(90deg,#ffffff 61.86%,#ACE0F9 100%),linear-gradient(120deg,#D6C9E2 29.36%,#8EC5FC 100%);"
+						  				 >
+						  					<view class="t-icon t-icon-xiangqin"></view>
+						  					 <text>心仪的Ta</text>
+						  				 </view>
+						  			   </view>
 			        <view  
 					class="item2"
 					style="margin-top: 12px;">
@@ -188,11 +207,21 @@ export default {
 </script>
 
 <style scoped>
+	.item1{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.t-icon {
+	    width: 40rpx; 
+	    height: 40rpx;
+	}
 	.avater{
-		width: 100px;
-		height: 100px;
-		border-radius: 45px;
-		box-shadow: 8px 1px 2px 0.2px #888888;
+		width: 178.5714rpx;
+		height: 178.5714rpx;
+		border-radius: 80.3571rpx;
+		box-shadow: 14.2857rpx 1.7857rpx 3.5714rpx 0.2px #888888;
 	}
 .page {
   background: #f4f4f4;
@@ -219,9 +248,9 @@ export default {
 }
 
 .top-content {
-  margin-top: 19px;
+  margin-top: 33.9286rpx;
   display: flex;
-  gap: 12px;
+  gap: 21.4286rpx;
   justify-content: center;
   align-items: center;
   transition: transform 0.2s ease-out;
@@ -232,19 +261,19 @@ export default {
   transition: transform 0.2s ease-out;
   background-color: #f1f1f1;
   color: #acacac;
-  border-radius: 12px;
+  border-radius: 21.4286rpx;
   font-size: 24rpx;
 }
 .biaoshi{
-	width: 35px;
-	height: 35px;
+	width: 62.5rpx;
+	height: 62.5rpx;
 	opacity: 5;
-	border-radius: 45px;
+	border-radius: 80.3571rpx;
 }
 .top-image {
   transition: transform 0.2s ease-out;
-  width: 80px; /* 图片宽度 */
-  height: 80px; /* 图片高度 */
+  width: 142.8571rpx; /* 图片宽度 */
+  height: 142.8571rpx; /* 图片高度 */
 }
 
 .content {
@@ -252,15 +281,14 @@ export default {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  padding: 20px;
+  padding: 35.7143rpx;
   background: white;
-  padding-top: 40px;
+  padding-top: 71.4286rpx;
   box-sizing: border-box;
-  background-color: #e1f7ff;
-  border-radius: 15px;
+  background-color: #fcffff;
+  border-radius: 26.7857rpx;
   margin-right: 1%;
   margin-left: 2%;
-  margin-top: 12px;
-  box-shadow: 1px 1px 1px 0.8px #888888;
+  margin-top: 21.4286rpx;
 }
 </style>

@@ -58,14 +58,12 @@ const _sfc_main = {
   }
 };
 if (!Array) {
-  const _easycom_uni_icons2 = common_vendor.resolveComponent("uni-icons");
   const _easycom_xuanfu2 = common_vendor.resolveComponent("xuanfu");
-  (_easycom_uni_icons2 + _easycom_xuanfu2)();
+  _easycom_xuanfu2();
 }
-const _easycom_uni_icons = () => "../../node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons.js";
 const _easycom_xuanfu = () => "../../components/xuanfu/xuanfu.js";
 if (!Math) {
-  (_easycom_uni_icons + _easycom_xuanfu)();
+  _easycom_xuanfu();
 }
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return common_vendor.e({
@@ -78,11 +76,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   }, {
     f: common_vendor.s($options.contentStyle),
     g: common_vendor.s($options.topContainerStyle),
-    h: common_vendor.p({
-      type: "icon-tonggao",
-      size: "30"
-    }),
-    i: common_vendor.o((...args) => $options.onScroll && $options.onScroll(...args))
+    h: common_vendor.o((...args) => $options.onScroll && $options.onScroll(...args))
   });
 }
 const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-a7ee8eaf"]]);

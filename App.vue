@@ -13,5 +13,5 @@
 </script>
 
 <style>
-	@import "@/static/iconfont.css";
+	@import url("./static/iconfont-weapp-icon.css");
 </style>

@@ -1,25 +1,8 @@
 {
-  "hash": "fff47aa0",
-  "configHash": "0ab14513",
-  "lockfileHash": "f3042ec2",
-  "browserHash": "c39aab2d",
-  "optimized": {
-    "qrcode": {
-      "src": "../../../../../node_modules/qrcode/lib/browser.js",
-      "file": "qrcode.js",
-      "fileHash": "3e32cef3",
-      "needsInterop": true
-    },
-    "qrcode-generator": {
-      "src": "../../../../../node_modules/qrcode-generator/qrcode.js",
-      "file": "qrcode-generator.js",
-      "fileHash": "2909e7d3",
-      "needsInterop": true
-    }
-  },
-  "chunks": {
-    "chunk-Y2F7D3TJ": {
-      "file": "chunk-Y2F7D3TJ.js"
-    }
-  }
+  "hash": "59eb7ed9",
+  "configHash": "3d9bab51",
+  "lockfileHash": "9568c649",
+  "browserHash": "bd5c00be",
+  "optimized": {},
+  "chunks": {}
 }
