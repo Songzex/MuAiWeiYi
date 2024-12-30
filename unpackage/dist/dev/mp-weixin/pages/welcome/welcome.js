@@ -18,10 +18,6 @@ const _sfc_main = {
     }
   }
 };
-if (!Array) {
-  const _component_DynamicCssEffect = common_vendor.resolveComponent("DynamicCssEffect");
-  _component_DynamicCssEffect();
-}
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return common_vendor.e({
     a: _ctx.$imagePreUrl + "hongniangSign.png",

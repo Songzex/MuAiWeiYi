@@ -8,9 +8,10 @@
     "urlCheck": false,
     "es6": true,
     "postcss": false,
-    "minified": false,
+    "minified": true,
     "newFeature": true,
     "bigPackageSizeSupport": true,
+    "packNpmRelationList": [],
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -19,7 +20,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "3.6.6",
-  "appid": "wx7d9a0d61c58f8439",
+  "appid": "wxc6b044f8ffa4a56a",
   "projectname": "MuAiWeiYi",
   "condition": {},
   "editorSetting": {

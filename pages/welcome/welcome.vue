@@ -1,5 +1,4 @@
 <template>
-	<DynamicCssEffect></DynamicCssEffect>
 	<view class="cards">
 		<view class="from">
 			<view class="item1">

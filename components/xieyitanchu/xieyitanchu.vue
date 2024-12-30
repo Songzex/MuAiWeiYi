@@ -1,5 +1,4 @@
 <template>
-	/**收益**/
 	<view>
 		
 	</view>
@@ -7,13 +6,11 @@
 
 <script>
 	export default {
+		name:"xieyitanchu",
 		data() {
 			return {
 				
-			}
-		},
-		methods: {
-			
+			};
 		}
 	}
 </script>
